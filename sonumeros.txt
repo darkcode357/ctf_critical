@@ -1,0 +1,4 @@
+Para essa parte do desafio, somente a porta 12321 deste servidor faz parte do
+desafio.
+
+http://142.93.73.149:12321
