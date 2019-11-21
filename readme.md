@@ -108,7 +108,7 @@ $45S
 )DJR
 )DJR
 ```
-> o comando sttrins nao retornou nada relevante
+> o comando strings nao retornou nada relevante
 ## Comando foremost
 ```Bash
 darkcode@darkcode0x00:~/ctf_critical$ dd if=img.jpeg of=img.dd bs=64K conv=noerror,sync
