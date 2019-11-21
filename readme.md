@@ -15,13 +15,13 @@ comandos usados para fazer a análise da jpg
 
 |Tool          |Description       |How to use     |
 |--------------|------------------|---------------|
-| file         |verificar que tipo de arquivo é a imagem  | `file stego.jpg` |
-| exiftool     |verificar se existe alguma metadado oculto na imagem | `exiftool stego.jpg` |
+| file         |verificar que tipo de arquivo é a imagem  | `file img.jpeg` |
+| exiftool     |verificar se existe alguma metadado oculto na imagem | `exiftool img.jpeg` |
 | binwalk      |verificar se há presença de arquivos anexados na imagem | `binwalk stego.jpg`
-| strings      |Verifique se há caracteres legíveis dentro da imagem | `strings stego.jpg`
-| foremost     |verificar se não existe nenhum arquivo corrompido dentro da imagem | `foremost stego.jpg`
-| pngcheck     |Checar se a imagem não era um outro arquivo de extensão alterada | `pngcheck stego.png`
-| identify     |verificar se a imagem não estava corrompida | `identify -verbose stego.jpg`
+| strings      |Verifique se há caracteres legíveis dentro da imagem | `strings img.jpeg`
+| foremost     |verificar se não existe nenhum arquivo corrompido dentro da imagem | `foremost img.jpeg`
+| pngcheck     |Checar se a imagem não era um outro arquivo de extensão alterada | `pngcheck img.jpeg`
+| identify     |verificar se a imagem não estava corrompida | `identify -verbose img.jpeg`
 
 
 ## Comando file
